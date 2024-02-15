@@ -5,3 +5,26 @@
 @import "partials/footer";
 // @import "partials/info-comics";
 // @import "partials/main-nav";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.table-container {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-container th, .table-container td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+.table-container th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
